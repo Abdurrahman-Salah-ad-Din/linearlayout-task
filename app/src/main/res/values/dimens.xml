@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="imageWidthAndHeight">93dp</dimen>
+
+    <dimen name="paddingLarge">16dp</dimen>
+    <dimen name="marginNormal">12dp</dimen>
+    <dimen name="marginSmall">8dp</dimen>
+
+    <dimen name="cornerRadius">8dp</dimen>
+    <dimen name="imageRadius">8dp</dimen>
+
+    <dimen name="largeFontSize">16sp</dimen>
+    <dimen name="smallFontSize">12sp</dimen>
+    <dimen name="paddingNormal">8dp</dimen>
+    <dimen name="paddingSmall">4dp</dimen>
+</resources>
