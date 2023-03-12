@@ -32,27 +32,47 @@
                 style="@style/ImportantTextViewWithLargeText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/person_name" />
+                android:text="@string/person_name"
+                app:fontFamily="@font/dm_sans_bold" />
 
             <androidx.appcompat.widget.AppCompatTextView
                 style="@style/UsefulTextViewForJobAndNationality"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/person_job" />
+                android:text="@string/person_job"
+                app:fontFamily="@font/dm_sans_medium" />
 
             <androidx.appcompat.widget.AppCompatTextView
                 style="@style/UsefulTextViewForLocation"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:drawableStart="@drawable/ic_location"
-                android:text="@string/person_location" />
+                android:text="@string/person_location"
+                app:fontFamily="@font/dm_sans" />
 
-            <androidx.appcompat.widget.AppCompatTextView
-                style="@style/ImportantTextViewWithSmallText"
+            <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:drawableEnd="@drawable/ic_star"
-                android:text="@string/person_review" />
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/ImportantTextViewWithSmallText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/marginSmall"
+                    android:text="@string/person_review"
+                    app:fontFamily="@font/dm_sans" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/ImportantTextViewWithSmallText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@drawable/ic_star"
+                    android:text="@string/person_rate"
+                    app:fontFamily="@font/dm_sans_medium" />
+
+            </LinearLayout>
+
+
 
         </LinearLayout>
 
@@ -77,7 +97,8 @@
                 android:paddingBottom="@dimen/paddingSmall"
                 android:text="@string/person_work_time"
                 android:textColor="#FFFFFF"
-                android:textSize="@dimen/smallFontSize" />
+                android:textSize="@dimen/smallFontSize"
+                app:fontFamily="@font/dm_sans" />
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="wrap_content"
@@ -86,14 +107,17 @@
                 android:layout_marginBottom="@dimen/marginSmall"
                 android:text="@string/person_Nationality"
                 android:textColor="@color/flat_dark_blue"
-                android:textSize="@dimen/smallFontSize" />
+                android:textSize="@dimen/smallFontSize"
+                app:fontFamily="@font/dm_sans_medium" />
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"
                 android:text="@string/last_seen"
-                android:textSize="@dimen/smallFontSize" />
+                android:textColor="@color/flat_gray"
+                android:textSize="@dimen/smallFontSize"
+                app:fontFamily="@font/dm_sans" />
 
         </LinearLayout>
 

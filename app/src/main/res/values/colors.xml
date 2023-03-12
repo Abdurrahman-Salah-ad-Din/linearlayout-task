@@ -11,4 +11,5 @@
     <color name="flat_dark_blue">#DE122940</color>
     <color name="flat_light_blue">#99263238</color>
     <color name="red">#FF0D0D</color>
+    <color name="flat_gray">#61122940</color>
 </resources>
