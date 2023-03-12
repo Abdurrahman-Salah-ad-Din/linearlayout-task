@@ -15,7 +15,7 @@
     </style>
 
     <style name="ImageRadius">
-        <item name="android:radius">@dimen/imageRadius</item>
+        <item name="cornerSize">@dimen/imageRadius</item>
     </style>
 
     <style name="ImportantTextView">
