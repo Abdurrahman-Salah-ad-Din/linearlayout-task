@@ -13,4 +13,37 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="ImageRadius">
+        <item name="android:radius">@dimen/imageRadius</item>
+    </style>
+
+    <style name="ImportantTextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="ImportantTextViewWithLargeText" parent="ImportantTextView">
+        <item name="android:textSize">@dimen/largeFontSize</item>
+        <item name="android:layout_marginBottom">@dimen/marginSmall</item>
+    </style>
+
+    <style name="ImportantTextViewWithSmallText" parent="ImportantTextView">
+        <item name="android:textSize">@dimen/smallFontSize</item>
+    </style>
+
+    <style name="UsefulTextView">
+        <item name="android:textSize">@dimen/smallFontSize</item>
+        <item name="android:layout_marginBottom">@dimen/marginSmall</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="UsefulTextViewForJobAndNationality" parent="UsefulTextView">
+        <item name="android:textColor">@color/flat_dark_blue</item>
+    </style>
+
+    <style name="UsefulTextViewForLocation" parent="UsefulTextView">
+        <item name="android:textColor">@color/flat_light_blue</item>
+    </style>
+
 </resources>
